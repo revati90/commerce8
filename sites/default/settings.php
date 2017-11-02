@@ -23,3 +23,6 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+
+$settings['hash_salt'] = 'r2-HTkYp8-r2Yb7HAa3p_NvJt-8BXPRWxbBvlvwrdNevcgUykr-3HAO2nhAzb12NgYfP2tGWIA';
+$settings['install_profile'] = 'standard';
