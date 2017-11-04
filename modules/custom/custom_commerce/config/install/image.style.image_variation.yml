@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: image_variation
+label: 'image variation'
+effects:
+  9b61580f-90ce-47e8-b700-0442adb855f1:
+    uuid: 9b61580f-90ce-47e8-b700-0442adb855f1
+    id: image_resize
+    weight: 1
+    data:
+      width: 500
+      height: 575

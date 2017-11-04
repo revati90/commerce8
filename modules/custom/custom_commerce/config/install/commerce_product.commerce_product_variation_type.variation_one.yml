@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: variation_one
+label: 'variation one'
+orderItemType: default
+generateTitle: true
+traits: {  }

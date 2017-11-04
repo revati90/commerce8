@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: paypal
+label: 'Paypal '
+weight: null
+plugin: paypal_express_checkout
+configuration:
+  api_username: gawas.revati-facilitator_api1.gmail.com
+  api_password: C7D8KHR4FE74JHBV
+  shipping_prompt: shipping_skip
+  signature: AwMRUaewWLMpARtEP3hNyRl6jiUvAh1R10v7I-OuLzIHIAD3qv14YM0z
+  solution_type: SoleBilling
+  display_label: PayPal
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

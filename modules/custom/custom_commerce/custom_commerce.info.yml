@@ -1,0 +1,31 @@
+name: 'Custom Commerce'
+description: 'Enables the configuration of commerce site.'
+type: module
+core: 8.x
+dependencies:
+  - comment
+  - commerce
+  - commerce_cart
+  - commerce_checkout
+  - commerce_order
+  - commerce_payment
+  - commerce_payment_example
+  - commerce_paypal
+  - commerce_price
+  - commerce_product
+  - commerce_promotion
+  - commerce_store
+  - commerce_tax
+  - field
+  - file
+  - image
+  - imagezoom
+  - inline_entity_form
+  - path
+  - rdf
+  - state_machine
+  - taxonomy
+  - text
+  - user
+  - views
+version: 8.x-1.0

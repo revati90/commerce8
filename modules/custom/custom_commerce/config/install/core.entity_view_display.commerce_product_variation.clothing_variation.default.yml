@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.clothing_variation
+    - field.field.commerce_product_variation.clothing_variation.attribute_color
+    - field.field.commerce_product_variation.clothing_variation.attribute_size
+    - field.field.commerce_product_variation.clothing_variation.field_picture
+  module:
+    - commerce_price
+    - imagezoom
+id: commerce_product_variation.clothing_variation.default
+targetEntityType: commerce_product_variation
+bundle: clothing_variation
+mode: default
+content:
+  attribute_color:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  attribute_size:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_picture:
+    weight: 4
+    label: above
+    settings:
+      imagezoom_zoom_type: lens
+      imagezoom_display_style: ''
+      imagezoom_zoom_style: image_variation
+      imagezoom_disable_width: 100
+      imagezoom_additional: ''
+      imagezoom_disable: false
+    third_party_settings: {  }
+    type: imagezoom
+    region: content
+  price:
+    label: above
+    type: commerce_price_default
+    weight: 1
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      display_currency_code: false
+    third_party_settings: {  }
+hidden:
+  product_id: true
+  sku: true
+  title: true

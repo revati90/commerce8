@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: physical_goods
+label: 'Order item one'
+id: order_item_one
+purchasableEntityType: ''
+orderType: order_type_one_
+traits: {  }

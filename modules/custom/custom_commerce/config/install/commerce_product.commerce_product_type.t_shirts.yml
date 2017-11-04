@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: t_shirts
+label: T-shirts
+description: ''
+variationType: clothing_variation
+injectVariationFields: true
+traits: {  }

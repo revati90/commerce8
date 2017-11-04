@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: electronics
+label: Electronics
+description: ''
+variationType: variation_one
+injectVariationFields: true
+traits: {  }
